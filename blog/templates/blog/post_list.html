@@ -3,17 +3,18 @@
     <head>
         <title>frank</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.1.2/foundation.min.css" type=text/css >
+        <link href='https://fonts.googleapis.com/css?family=Rock+Salt|Titillium+Web' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="{% static 'css/blog.css' %}" type="text/css" />
     </head>
     <body>
         <div>
-            <h1><a href="">Moringa Experience</a></h1>
+            <h1><a href="">Tech Bloger</a></h1>
         </div>
         
         {% for post in posts %}
             <div>
                 <p>published: {{ post.published_date }}</p>
-                <h1><a href="">{{ post.title }}</a></h1>
+                <h3><a href="">{{ post.title }}</a></h3>
                 <p>{{ post.text|linebreaks }}</p>
             </div>
         {% endfor %}

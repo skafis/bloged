@@ -1,3 +1,16 @@
 body{
+    text-align: center;
     background-color: gray;
+    background-image:url(https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwjd8LmUpf_KAhVKhhoKHVptDzwQjRwIBw&url=http%3A%2F%2Fwallpapercave.com%2Ftechnology-background-images&bvm=bv.114195076,d.d24&psig=AFQjCNFNpbsipHjDHfm8lkUCKR3TOtizKA&ust=1455815391988230);
+}
+
+h1{
+    font-family: 'Rock Salt', cursive;
+}
+
+p{
+    text-align:justify;
+    margin: 15px;
+    float
+    font-family: 'Titillium Web', sans-serif;
 }
